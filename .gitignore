@@ -1,0 +1,33 @@
+# --- Environment & secrets -----------------------------------------------------
+.env
+*.env.local
+
+# --- Python ------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+*.log
+
+# --- Node / frontend ------------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# --- Data (uploaded documents & vector index) -----------------------------------------
+data/documents/*
+data/index/*
+!data/documents/.gitkeep
+!data/index/.gitkeep
+
+# --- OS / editor ------------------------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp

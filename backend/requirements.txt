@@ -1,0 +1,17 @@
+# Gemini-only build. No PyTorch, no sentence-transformers — embeddings and
+# answers both go through Gemini's HTTP API (via httpx), so this install
+# stays small and fast on any machine.
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+python-dotenv==1.0.1
+python-multipart==0.0.19
+
+langchain-text-splitters==0.3.2
+faiss-cpu==1.9.0
+pypdf==5.1.0
+httpx==0.28.1
+numpy==1.26.4
+
+pytest==8.3.4
+pytest-mock==3.14.0
