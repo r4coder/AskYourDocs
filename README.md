@@ -1,4 +1,4 @@
-# AI Document Q&A — RAG Application (Gemini)
+# AskYourDocs
 
 Upload PDF or TXT documents, ask questions in plain English, and get answers
 generated **only** from your own documents — with citations to the exact file
